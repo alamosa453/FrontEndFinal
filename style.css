@@ -1,0 +1,119 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.Site-content {
+    flex: 1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 50px 0;
+}
+h1, h3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: Montserrat;
+}
+
+#json {
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    padding: 15px;
+    justify-content: center;
+    align-content: auto;
+}
+
+
+
+.footer-container {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+img {
+    width: 50%;
+}
+.img {
+    flex: 1;
+    flex-shrink: 0;
+    border: 2px dotted black;
+    padding: 2rem;
+    align-content: stretch;
+}
+
+.links {
+    font-family: Montserrat;
+    flex: 1;
+    border: 2px dotted hotpink;
+    padding: 2rem;
+    margin: 0 5%;
+    justify-content: center;
+}
+
+.repo {
+    font-family: Montserrat;
+    flex: 1;
+    border: 2px dotted black;
+    padding: 2rem;
+    justify-content: center;
+}
+
+body {
+    background: #ffbfff
+}
+p {
+    padding: 15% 20%;
+}
+
+#json {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+#btn {
+    align-self: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+
+.switch {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 2px dashed green;
+}  
+
+
+.btn{
+    align-self: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 2px solid black;
+    margin: 50px;
+    background:#fff;
+}
+
+
+.bodyChange {
+    background: blueviolet;
+    font-family: Arial;
+}
